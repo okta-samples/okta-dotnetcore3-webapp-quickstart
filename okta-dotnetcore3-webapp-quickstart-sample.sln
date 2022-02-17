@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "okta-dotnetcore3-webapp-quickstart-sample", "okta-dotnetcore3-webapp-quickstart-sample\okta-dotnetcore3-webapp-quickstart-sample.csproj", "{8AA2AFDD-0E8E-4301-8017-2A4F8F81470B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA2AFDD-0E8E-4301-8017-2A4F8F81470B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA2AFDD-0E8E-4301-8017-2A4F8F81470B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA2AFDD-0E8E-4301-8017-2A4F8F81470B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA2AFDD-0E8E-4301-8017-2A4F8F81470B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28501B47-E86B-4D81-A72E-EA279E143061}
+	EndGlobalSection
+EndGlobal
