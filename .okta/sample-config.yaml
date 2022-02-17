@@ -1,0 +1,11 @@
+oauthClient:
+  redirectUris:
+    - https://localhost:5001/authorization-code/callback
+    - http://localhost:8080/authorization-code/callback
+  applicationType: web
+
+directions: |+2
+  Okta configuration written to: okta-dotnetcore3-webapp-quickstart-sample/appsettings.json
+  Don't EVER commit okta-dotnetcore3-webapp-quickstart-sample/appsettings.json into source control
+  Run this application with:
+      dotnet run --project okta-dotnetcore3-webapp-quickstart-sample
