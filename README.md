@@ -1,4 +1,5 @@
-# .NET Core 3.1 Web App Quickstart Sample Code for Integrating with Okta using the Redirect Model
+# .NET Core 3.1 MVC Web App Quickstart
+## Sample Code for Integrating with Okta using the Redirect Model
 
 This repository contains a sample of integrating with [Okta](https://www.okta.com/) for authentication using the [Okta-Hosted authentication flow](https://developer.okta.com/docs/concepts/redirect-vs-embedded/) for a [.NET Core 3.1 Web App](https://developer.okta.com/docs/guides/aspnetcore3/main/).
 
