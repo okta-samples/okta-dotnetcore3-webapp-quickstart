@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "okta-dotnetcore3-webapp-quickstart-sample", "okta-dotnetcore3-webapp-quickstart-sample\okta-dotnetcore3-webapp-quickstart-sample.csproj", "{8AA2AFDD-0E8E-4301-8017-2A4F8F81470B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ADAA6AEE-AE09-47C1-8C9C-24D43727EABF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		.okta\sample-config.yaml = .okta\sample-config.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "okta-dotnetcore3-mvc-webapp-quickstart-sample", "okta-dotnetcore3-mvc-webapp-quickstart-sample\okta-dotnetcore3-mvc-webapp-quickstart-sample.csproj", "{C3D67AD5-1538-4D74-91EC-13E899479BC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8AA2AFDD-0E8E-4301-8017-2A4F8F81470B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8AA2AFDD-0E8E-4301-8017-2A4F8F81470B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8AA2AFDD-0E8E-4301-8017-2A4F8F81470B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8AA2AFDD-0E8E-4301-8017-2A4F8F81470B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D67AD5-1538-4D74-91EC-13E899479BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D67AD5-1538-4D74-91EC-13E899479BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D67AD5-1538-4D74-91EC-13E899479BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D67AD5-1538-4D74-91EC-13E899479BC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
