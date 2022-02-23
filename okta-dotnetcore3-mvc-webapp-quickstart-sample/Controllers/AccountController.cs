@@ -26,12 +26,11 @@ namespace okta_dotnetcore3_mvc_webapp_quickstart_sample.Controllers
         public IActionResult SignOut()
         {
             return new SignOutResult(
-                    new[]
-                            {
-        OktaDefaults.MvcAuthenticationScheme,
-        CookieAuthenticationDefaults.AuthenticationScheme,
-                    },
-                            new AuthenticationProperties { RedirectUri = "/Home/" });
+                new[]{
+                    OktaDefaults.MvcAuthenticationScheme,
+                    CookieAuthenticationDefaults.AuthenticationScheme}, 
+                    new AuthenticationProperties { RedirectUri = "/Home/" }
+                );
         }
     }
 }
